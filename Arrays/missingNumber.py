@@ -14,7 +14,7 @@ def findMissing(ar, l):
 
 
 def findMissingXOR(ar, l):
-    list_xor = lambda x, y : x ^ y
+    def list_xor(x, y): return x ^ y
     xor1 = reduce(list_xor, range(l + 2))
     xor2 = reduce(list_xor, ar)
     return xor1 ^ xor2
