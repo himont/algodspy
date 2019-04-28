@@ -1,7 +1,7 @@
 '''https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
 Given an array containing both negative
  and positive integers. Find the contiguous
-  sub-array with maximum sum.'''
+  sub-array with maximum sum. '''
 
 
 def get_max_sum(ar):
