@@ -26,6 +26,7 @@ def insert_bst(new_node, root):
                 else:
                     root = root.right
 
+
 def find_ancestor(root, data1, data2):
     max_data = max(data1, data2)
     min_data = min(data1, data2)
@@ -45,7 +46,6 @@ def find_ancestor(root, data1, data2):
         else:
             break
     return lca
-
 
 
 if __name__ == '__main__':
